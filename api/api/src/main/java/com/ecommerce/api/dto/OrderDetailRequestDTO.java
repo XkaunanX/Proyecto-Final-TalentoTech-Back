@@ -1,4 +1,11 @@
 package com.ecommerce.api.dto;
 
-public class OrderDetailDTO {
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+public class OrderDetailRequestDTO {
+    private Long productId;
+    private int quantity;
 }
